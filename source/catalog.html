@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Седона: каталог</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header class="main-header">
+    <a class="main-header__logo" href="index.html">
+      <img class="main-header__top-logo" src="img/logo.svg" alt="main logo" width="185" height="96">
+    </a>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="index.html">Главная</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link main-nav__link--active" href="catalog.html">Фото и видео</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="form.html">Форма отзыва</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">HTML Academy</a>
+        </li>
+      </ul>
+      <button class="main-nav__btn" type="button"><span class="visually-hidden">меню</span></button>
+    </nav>
+  </header>
+
+  <main class="page__wrapper">
+    <div class="greetings__wrapper">
+      <img class="greetings__text" src="img/text-sedona.svg" alt="title Sedona" width="229" height="39">
+    </div>
+
+    <div class="posts-header">
+      <h2 class="posts-title">
+        Фото и видео
+      </h2>
+      <p class="posts-text">
+        Не&nbsp;можете решиться на&nbsp;путешествие из-за курса? Фотографии помогут вам забыть о&nbsp;политике и&nbsp;экономике.
+      </p>
+    </div>
+
+    <ul class="posts">
+      <li class="posts-item">
+        <figure class="posts-item__content">
+          <a class="posts-item__link" href="#">
+            <img class="posts-item__photo" src="img/catalog/post-photos/photo-1-mobile.jpg" alt="evening road" width="280" height="280">
+          </a>
+          <figcaption class="posts-item__caption">
+            <div class="posts-item__description">
+              <div class="posts-item__title">
+                Неродные просторы
+              </div>
+              <span class="posts-item__author">
+                Автор фото: <span class="posts-item__author-name">Борис</span>
+              </span>
+            </div>
+            <div class="posts-item__likes-wrapper">
+              <img class="likes-icon" src="img/catalog/post-photos/like-icon.svg" alt="like icon" width="23" height="21">
+              <span class="posts-item__likes-count">1350</span>
+            </div>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="posts__item">
+        <figure class="post-item__content">
+          <a class="post-item__link" href="#">
+            <img class="posts-item__photo" src="img/catalog/post-photos/photo-2-mobile.jpg" alt="cactus" width="280" height="280">
+          </a>
+          <figcaption class="posts-item__caption">
+            <div class="posts-item__description">
+              <div class="posts-item__title">
+                Местная растительность
+              </div>
+              <span class="posts-item__author">
+                Автор фото: <span class="post__author-name">Сергей</span>
+              </span>
+            </div>
+            <div class="posts-item__likes-wrapper">
+              <img class="likes-icon" src="img/catalog/post-photos/like-icon.svg" alt="like icon" width="23" height="21">
+              <span class="posts-item__likes-count">143</span>
+            </div>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="posts__item">
+        <figure class="post-item__content">
+          <a class="post-item__link" href="#">
+            <img class="posts-item__photo" src="img/catalog/post-photos/photo-3-mobile.jpg" alt="mountain road" width="280" height="280">
+          </a>
+          <figcaption class="post__text">
+            <div class="posts-item__description">
+              <div class="posts-item__title">
+                Дорога на север
+              </div>
+              <span class="posts-item__author">
+                Автор фото: <span class="post__author-name">Петр</span>
+              </span>
+            </div>
+            <div class="posts-item__likes-wrapper">
+              <img class="likes-icon" src="img/catalog/post-photos/like-icon.svg" alt="like icon" width="23" height="21">
+              <span class="posts-item__likes-count">96</span>
+            </div>
+          </figcaption>
+        </figure>
+      </li>
+      <li class="posts__item">
+        <figure class="post-item__content">
+          <a class="post-item__link" href="#">
+            <img class="posts-item__photo" src="img/catalog/post-photos/photo-4-mobile.jpg" alt="devils bridge" width="280" height="280">
+          </a>
+          <figcaption class="posts-item__caption">
+            <div class="posts-item__description">
+              <div class="posts-item__title">
+                Мост дьявола
+              </div>
+              <span class="posts-item__author">
+                Автор фото: <span class="post__author-name">Антон</span>
+              </span>
+            </div>
+            <div class="posts-item__likes-wrapper">
+              <img class="likes-icon" src="img/catalog/post-photos/like-icon.svg" alt="like icon" width="23" height="21">
+              <span class="posts-item__likes-count">254</span>
+            </div>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+
+    <div class="video-player__intro-wrapper">
+      <p class="video-player__intro-title">
+        Все еще сомневаетесь?
+      </p>
+      <p class="video-player__intro-text">
+        Смотрите видеопрезентацию и&nbsp;скорее за&nbsp;билетами, пока они не&nbsp;подорожали в&nbsp;очередной&nbsp;раз!
+      </p>
+    </div>
+    <video class="video-player" src="/" poster="img/catalog/post-photos/presentation-poster-mobile.jpg"></video>
+  </main>
+
+  <footer class="footer">
+    <h2 class="footer__hashtag">#visitsedona</h2>
+    <ul class="socials">
+      <li class="socials__item">
+        <a class="socials__link" href="#">
+          <img class="socials__image" src="img/vkontakte-icon.svg" alt="vkontakte icon" width="48" height="48">
+        </a>
+        <span class="visually-hidden">вконтакте</span>
+      </li>
+      <li class="socials__item">
+        <a class="socials__link" href="#">
+          <img class="socials__image" src="img/telegram-icon.svg" alt="telegram icon" width="48" height="48">
+        </a>
+        <span class="visually-hidden">телеграм</span>
+      </li>
+      <li class="socials__item">
+        <a class="socials__link" href="#">
+          <img class="socials__image" src="img/youtube-icon.svg" alt="youtube icon" width="48" height="48">
+        </a>
+        <span class="visually-hidden">ютуб</span>
+      </li>
+    </ul>
+    <p class="main-footer__copyright">
+      <span class="main-footer__copyright-text">Разработано</span>
+      <a class="main-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
+        <img src="img/htmlacademy-logo.svg" alt="htmlacademy logo" width="27" height="34">
+      </a>
+      <span class="visually-hidden">HTML Academy</span>
+    </p>
+  </footer>
+</body>
+</html>

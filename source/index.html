@@ -1,12 +1,133 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Седона</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo">
+        <img class="main-header__top-logo" src="img/logo.svg" alt="main logo" width="185" height="96">
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link main-nav__link--active" href="index.html">Главная</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="catalog.html">Фото и видео</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="form.html">Форма отзыва</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">HTML Academy</a>
+          </li>
+        </ul>
+        <button class="main-nav__btn" type="button"><span class="visually-hidden">меню</span></button>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+    <main class="page__wrapper">
+      <div class="main-greetings__wrapper">
+        <img class="main-greetings__text" src="img/greetings-text.svg" alt="Welcome to the gargeous Sedona" width="282" height="214">
+      </div>
+      <h2 class="main-page__intro-text">Седона ‒ небольшой городок в аризоне, заслуживающий большего!</h2>
+      <section class="features__wrapper">
+        <p class="features-title">Рассмотрим 5 причин, по которым Седона круче чем Гранд Каньон!</p>
+        <ul class="features-list">
+          <li class="features-item">
+            <h2 class="features-item__title">Настоящий городок</h2>
+            <p class="features-item__number">‒ №1 ‒</p>
+            <p class="features-item__text">Седона не атракцион для туристов, там течет своя жизнь</p>
+            <img class="features-item__photo" src="img/motel.jpg" alt="City photo">
+            <ul class="services">
+              <li class="services__item">
+                <img class="services__icon" src="img/icon-house.svg" alt="icon house" width="39" height="37">
+                <h2 class="services__title">Жилье</h2>
+                <p class="services__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+              </li>
+              <li class="services__item">
+                <img class="services__icon" src="img/icon-gift.svg" alt="icon gift" width="32" height="38">
+                <h2 class="services__title">Сувениры</h2>
+                <p class="services__text">Не только китайского, но и местного производства!</p>
+              </li>
+              <li class="services__item">
+                <img class="services__icon" src="img/icon-burger.svg" alt="icon burger" width="40" height="35">
+                <h2 class="services__title">Еда</h2>
+                <p class="services__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              </li>
+            </ul>
+          </li>
+          <li class="features-item">
+            <h2 class="features-item__title">Там есть мост дьявола</h2>
+            <p class="features-item__number">‒ №2 ‒</p>
+            <p class="features-item__text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            <img class="features-item__photo" src="img/devils-bridge.jpg" alt="Photo of devils bridge" width="320" height="260">
+          </li>
+          <li class="features-item">
+            <h2 class="features-item__title">Небольшая площадь</h2>
+            <p class="features-item__number">‒ №3 ‒</p>
+            <p class="features-item__text">все интересные места находятся очень близко</p>
+          </li>
+          <li class="features-item">
+            <h2 class="features-item__title">Красивая дорога</h2>
+            <p class="features-item__number">‒ №4 ‒</p>
+            <p class="features-item__text">Ехать в седону из лас-вегаса совсем не скучно!</p>
+          </li>
+          <li class="features-item">
+            <h2 class="features-item__title">Мало туристов</h2>
+            <p class="features-item__number">‒ №5 ‒</p>
+            <p class="features-item__text">Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+        </ul>
+      </section>
+      <section class="hotel-search">
+        <h2 class="hotel-search__header">Заинтересовались?</h2>
+        <p class="hotel-search__text">
+          Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне
+        </p>
+        <a class="hotel-search__btn btn" href="#">Найти гостиницу</a>
+      </section>
+      <div class="location">
+        <a class="location__link" href="#">
+          <img class="location__map" src="img/map.jpg" alt="Sedona on the map" width="320" height="350">
+        </a>
+      </div>
+    </main>
 
+    <footer class="footer">
+      <h2 class="footer__hashtag">#visitsedona</h2>
+      <ul class="socials">
+        <li class="socials__item">
+          <a class="socials__link" href="#">
+            <img class="socials__image" src="img/vkontakte-icon.svg" alt="vkontakte icon" width="48" height="48">
+          </a>
+          <span class="visually-hidden">вконтакте</span>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link" href="#">
+            <img class="socials__image" src="img/telegram-icon.svg" alt="telegram icon" width="48" height="48">
+          </a>
+          <span class="visually-hidden">телеграм</span>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link" href="#">
+            <img class="socials__image" src="img/youtube-icon.svg" alt="youtube icon" width="48" height="48">
+          </a>
+          <span class="visually-hidden">ютуб</span>
+        </li>
+      </ul>
+      <p class="main-footer__copyright">
+        <span class="main-footer__copyright-text">Разработано</span>
+        <a class="main-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
+          <img src="img/htmlacademy-logo.svg" alt="htmlacademy logo" width="27" height="34">
+        </a>
+        <span class="visually-hidden">HTML Academy</span>
+      </p>
+    </footer>
   </body>
 </html>
